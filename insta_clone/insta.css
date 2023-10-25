@@ -1,0 +1,60 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+.instabox
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.outerbox
+{
+  width: 500px;
+  height:500px;
+  border:1px solid black;
+  border-radius: 90px;
+  background-image:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.innerbox
+{
+  width: 300px;
+  height: 300px;
+  border:25px solid #fff ;
+  border-radius: 90px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.tt
+{
+    width: 10px;
+    height: 10px;
+    border:20px solid white;
+    background-color: #fff;
+    border-radius: 250px;
+    position: relative;
+    bottom: 100px;
+    left: 153px;
+}
+.inner
+{
+  width: 100px;
+  height: 100px;
+  border: 25px solid #fff;
+  border-radius: 150px;
+  position: relative;
+  right: 26px;
+}
